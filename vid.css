@@ -1,0 +1,160 @@
+body {
+    background: rgb(255, 216, 216);
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(190, 78, 78);
+}
+
+.info p {
+    color:rgb(114, 104, 104);
+    margin: 0;
+    font-style: italic;
+}
+
+/* .social {
+    background: none;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 16px;
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: rgb(88, 80, 80);
+}
+
+.block {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block1 {
+    padding: 15px 20px;
+    background: green;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+@media (max-width: 750px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.bg-green {
+    background: rgb(145, 255, 145);
+}
+
+.bg-yellow {
+    background: rgb(255, 255, 140);
+}
+
+.bg-red {
+    background: rgb(253, 143, 143);
+}
+
+.block1 h2 {
+    margin: 10px 0 10px 0;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: red;
+}
+
+.list2 {
+    padding: 0 20px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    text-align: center;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.contact2 label {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.contact2 input, .contact2 textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    padding: 10px  5px 10px 5px;
+    font-family: inherit;
+    outline: none;
+}
+
+.info1 {
+    margin-left: 40px;
+
+}
+
+.tel {
+    padding: 15px 20px;
+    background: black;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.tel:hover {
+    opacity: 0.9;
+}
+
+/* .position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+} */
+
+/* .box {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background: red;
+} */
